@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>answer1</title>
+</html>
+
+<body>
+    <p>
+        #include <stdio.h>
+            <br>
+            void main()
+            {
+                <br>
+                char ms,rs;
+                <br>
+                FILE *fp;
+                <br>
+                fp = fopen("sampy.txt","w");
+                <br>
+                printf("enter a character: \n");
+                <br>
+                scanf("%c",&ms);
+                <br>
+                fputc(ms, fp);
+                
+                fclose(fp);
+                
+                fp = fopen("sampy.txt","r");
+                
+                rs=fgetc(fp);
+                
+                printf(" the character is:  %c",rs);
+                
+                
+                fclose(fp);
+                
+                
+            }
+            
+    </p>
+</body>

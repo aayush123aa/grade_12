@@ -1,0 +1,14 @@
+*{
+background-color: black ;
+color: antiquewhite;
+font-size:x-large;
+}
+button
+{
+background-color: rgb(27, 201, 163);
+height: 70px;
+width: 150px;
+border-width: 6px;
+font-weight: bold;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
